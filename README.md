@@ -2,22 +2,36 @@
 
 A modern issue tracking system built with Laravel for managing projects, tracking issues, assigning tasks, and collaborating with team members.
 
+> **Note:** This project is currently under active development.
+
 ## 🚀 Features
 
-* User Authentication
-* Project Management
+### Authentication
+* User Registration & Login
+* Laravel Breeze authentication
+* API authentication using Laravel Sanctum
+* Token-based API access
+
+### Project Management
+* Create projects
+* Project ownership using user relationships
+* Project status management
+* API resource responses
+* Form request validation
+
+### Upcoming Features
 * Issue Management
 * Issue Assignment
 * Comments & Discussions
 * Dashboard & Statistics
 
-> **Note:** This project is currently under active development.
-
 ## 🛠️ Tech Stack
 
-* Laravel
+* Laravel 13
 * PHP 8.3
 * MySQL
+* Laravel Breeze
+* Laravel Sanctum
 * Blade
 * Tailwind CSS
 * Vite
@@ -44,14 +58,3 @@ npm install
 npm run dev
 
 php artisan serve
-```
-
-## 📌 Roadmap
-
-* [x] Project setup
-* [x] Authentication (Laravel Breeze)
-* [ ] Project CRUD
-* [ ] Issue CRUD
-* [ ] Comments System
-* [ ] Dashboard
-* [ ] Search & Filters
